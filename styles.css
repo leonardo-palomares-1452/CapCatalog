@@ -1,0 +1,84 @@
+*{
+    background-color: black;
+    color: white;
+    /*
+    box-sizing:border-box;
+    margin: 0;   //this may help in the future
+    padding: 0;
+    */
+}
+.heading{
+    text-align: center;
+    font-size: 120px;
+}
+h3{
+    text-align: center;
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-container img{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#icon{
+    height: 150px;
+    width: 120px;
+}
+.nav-container p{
+    text-align: center;
+    font-size: x-large;
+}
+nav{
+    display:flex;
+    margin:auto;
+    justify-content: space-around;
+}
+hr{
+    height: 10px;
+    color: white;
+    background-color: white;
+}
+.shrouds-and-pans{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.carolina-pots{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.topmounts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.outsidemounts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item-img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+li{
+    font-size: large;
+}
+.the-para{
+    margin-right:200px;
+    margin-left:200px;
+}
+.last-hr{
+    margin-bottom:50px;
+}
+main{
+    margin-right:50px;
+    margin-left:50px;
+
+}
