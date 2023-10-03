@@ -1,11 +1,14 @@
 *{
-    background-color: black;
-    color: white;
+    
+    color: navy;
     /*
     box-sizing:border-box;
     margin: 0;   //this may help in the future
     padding: 0;
     */
+}
+body{
+    background-color: lightgray;
 }
 .heading{
     text-align: center;
@@ -39,33 +42,40 @@ nav{
 }
 hr{
     height: 10px;
-    color: white;
-    background-color: white;
+    color: gray;
+    background-color: gray;
 }
 .shrouds-and-pans{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap:40px;
 }
 .carolina-pots{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap:40px;
 }
 .topmounts{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap:40px;
 }
 .outsidemounts{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap:40px;
 }
 .item-img{
     height: 200px;
     width: 300px;
     object-fit: cover;
+}
+.item-description li{
+    font-weight: bolder;
 }
 li{
     font-size: large;
@@ -81,4 +91,13 @@ main{
     margin-right:50px;
     margin-left:50px;
 
+}
+footer{
+    padding-top:120px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+ .one-item{
+    background-color: gray;
 }
